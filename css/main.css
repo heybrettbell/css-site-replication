@@ -29,12 +29,18 @@ section.intro {
     float: left;
 }
 .login_button {
-    float: right;
-    background-color: #1c5380;
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 5px;
-    margin:20px;
+  float: right;
+  background-color: #1c5380;
+  color: #fff;
+  padding: 9px 15px;
+  border-radius: 5px;
+  margin: 20px;
+  line-height: 1;
+  height: 21px;
+}
+.login_button img {
+  /*margin-top:20px;*/
+  line-height: 24px;
 }
 
 .brand {
@@ -44,6 +50,8 @@ section.intro {
 h2 {
     padding: 32px;
     color: #06365f;
+    font-size: 29px;
+    line-height: 1.2em;
 }
 
 .intro p {
@@ -82,4 +90,10 @@ footer {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+}
+span {
+line-height: 22px;
+display: inline-block;
+vertical-align: top;
+margin: 0 7px;
 }
